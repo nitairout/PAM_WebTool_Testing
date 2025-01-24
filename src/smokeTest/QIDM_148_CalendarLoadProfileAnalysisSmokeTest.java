@@ -8,6 +8,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import common.LoginTC;
@@ -55,7 +56,10 @@ public class QIDM_148_CalendarLoadProfileAnalysisSmokeTest extends TestBase {
 
 			// Search with site testData.getProperty("PAMTestCapriataSaiwa")
 			searchSiteInLocationList(testData.getProperty("PAMTestCapriataSaiwa"));
-
+			System.out.println("This test will fail intentionally");
+			Reporter.log("This test will fail intentionally");
+int i=10/0;
+/*
 			// Click on the measurements
 			getWebElementXpath("PAMTest_CapriataSaiwa_Energy").click();
 			getWebElementXpath("PAMTest_CapriataSaiwa_Gas").click();
@@ -131,7 +135,7 @@ public class QIDM_148_CalendarLoadProfileAnalysisSmokeTest extends TestBase {
 			printLog("Verified 4th row of table date which is 01:00 interval for default date range");
 
 			login.logout();
-
+*/
 		} catch (Throwable e) {
 			e.printStackTrace();
 			throw e;
