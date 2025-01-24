@@ -5,7 +5,7 @@
 
 	<listeners>
 		<listener class-name="listener.TestsListenerAdapter" />
-		<listener class-name="listener.RetryListenerClass" />
+		
 		<!-- <listener class-name="listener.ReportTestNG" /> -->
 	</listeners>
 
