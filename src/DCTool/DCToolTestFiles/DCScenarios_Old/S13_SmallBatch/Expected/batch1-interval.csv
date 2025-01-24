@@ -1,0 +1,9 @@
+Timestamp,Value,Status,Notes
+2020-01-16 11:00:00,867,513,System was unable to calculate the previous 7 values due to gap | System detected a catch-up spike.
+2020-01-16 11:15:00,98,2,
+2020-01-16 11:30:00,107,2,
+2020-01-16 11:45:00,103,2,
+2020-01-16 12:00:00,114,2,
+2020-01-16 12:15:00,98,2,
+2020-01-16 12:30:00,112,2,
+2020-01-16 12:45:00,104,2,

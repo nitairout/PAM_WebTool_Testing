@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Languages>
+  <Language>
+    <Language_Text>English (US)</Language_Text>
+    <Language_Value>en-US</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>English (UK)</Language_Text>
+    <Language_Value>en-GB</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Nederlands (NL/BE</Language_Text>
+    <Language_Value>nl-BE</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Francais (FR)</Language_Text>
+    <Language_Value>fr-FR</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Francais (CAN)</Language_Text>
+    <Language_Value>fr-CA</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Deutsch (GER)</Language_Text>
+    <Language_Value>de-DE</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Español (MX)</Language_Text>
+    <Language_Value>es-MX</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Português (PT)</Language_Text>
+    <Language_Value>pt-PT</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Português (BR)</Language_Text>
+    <Language_Value>pt-BR</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>中文 (CN)</Language_Text>
+    <Language_Value>zh-CN</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>한국어 (KR)</Language_Text>
+    <Language_Value>ko-KR</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Русский (RU</Language_Text>
+    <Language_Value>ru-RU</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>日本語 (JP)</Language_Text>
+    <Language_Value>ja-JP</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Italiano (IT)</Language_Text>
+    <Language_Value>it-IT</Language_Value>
+  </Language>
+  <Language>
+    <Language_Text>Español (ES)</Language_Text>
+    <Language_Value>es-ES</Language_Value>
+  </Language>
+</Languages>

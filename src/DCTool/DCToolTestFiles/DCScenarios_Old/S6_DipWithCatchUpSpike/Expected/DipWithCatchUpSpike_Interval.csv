@@ -1,0 +1,53 @@
+﻿Timestamp,Value,Status,Notes
+2020-11-29 00:30:00,218.611999999732,2,
+2020-11-29 00:45:00,26.2860000003129,2,
+2020-11-29 01:30:00,84.0379999997094,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 01:45:00,25.1730000004172,2,
+2020-11-29 02:30:00,75.2029999997467,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 02:45:00,25.0169999999925,2,
+2020-11-29 03:30:00,75.980000000447,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 03:45:00,25.4049999993294,2,
+2020-11-29 04:30:00,68.2620000001043,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 04:45:00,23.168000000529,2,
+2020-11-29 05:30:00,80.9639999996871,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 05:45:00,26.8379999995232,2,
+2020-11-29 06:30:00,73.8880000002682,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 06:45:00,24.5010000001639,2,
+2020-11-29 07:30:00,70.9259999999776,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 07:45:00,23.4000000003725,2,
+2020-11-29 08:30:00,70.9789999993518,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 08:45:00,23.714999999851,2,
+2020-11-29 09:30:00,70.9570000004023,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 09:45:00,23.9429999999702,2,
+2020-11-29 10:30:00,64.7029999997467,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 10:45:00,22.5930000003427,2,
+2020-11-29 11:30:00,69.8959999997169,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 11:45:00,23.5839999997988,2,
+2020-11-29 12:30:00,20.7370000006631,4609,System was unable to calculate the previous 2 values due to Data Error | System did not detect a catch-up spike.
+2020-11-29 12:45:00,20.9139999998733,2,
+2020-11-29 13:30:00,123.922000000253,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 13:45:00,23.3019999992102,2,
+2020-11-29 14:30:00,71.1870000008494,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 14:45:00,23.9459999995306,2,
+2020-11-29 15:30:00,73.3870000001043,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 15:45:00,24.7970000002533,2,
+2020-11-29 16:30:00,66.3789999997243,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 16:45:00,23.3470000000671,2,
+2020-11-29 17:30:00,71.4009999996051,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 17:45:00,23.8410000000149,2,
+2020-11-29 18:30:00,75.0880000004545,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 18:45:00,25.4399999994785,2,
+2020-11-29 19:30:00,75.7360000004992,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 19:45:00,24.7910000002012,2,
+2020-11-29 20:30:00,76.8479999992996,513,System was unable to calculate the previous 2 values due to Data Error | System detected a catch-up spike.
+2020-11-29 20:45:00,28.4980000006035,2,
+2020-11-29 21:00:00,28.4399999994785,2,
+2020-11-29 21:30:00,51.9330000001937,513,System was unable to calculate the previous 1 values due to Data Error | System detected a catch-up spike.
+2020-11-29 21:45:00,25.313000000082,2,
+2020-11-29 22:00:00,23.7379999998957,2,
+2020-11-29 22:30:00,45.9079999998212,513,System was unable to calculate the previous 1 values due to Data Error | System detected a catch-up spike.
+2020-11-29 22:45:00,23.7340000001714,2,
+2020-11-29 23:00:00,24.9780000001192,2,
+2020-11-29 23:30:00,49.7920000003651,513,System was unable to calculate the previous 1 values due to Data Error | System detected a catch-up spike.
+2020-11-29 23:45:00,25.0369999995455,2,
+2020-11-30 00:00:00,25.4690000005066,2,

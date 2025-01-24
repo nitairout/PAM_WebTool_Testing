@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<suite verbose="1" name="PAM Automation" parallel="false"
+	preserve-order="true">
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+		<listener class-name="listener.RetryListenerClass" />
+		<!-- <listener class-name="listener.ReportTestNG" /> -->
+	</listeners>
+
+	<test name="SanityTest" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="SanityTest">
+		<classes>
+			<class name="smokeTest.SanityTest" />
+		</classes>
+	</test>
+	
+	<test name="TrendAnalysisCardRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="TrendAnalysisCardRegression">
+		<classes>
+			<class name="regression.TrendAnalysisCard.TrendAnalysisCardRegression" />
+		</classes>
+	</test>
+	
+	<test name="LoadProfileAnalysisCardRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="LoadProfileAnalysisCardRegression">
+		<classes>
+			<class name="regression.LoadProfileAnalysisCard.LoadProfileAnalysisCardRegression" />
+		</classes>
+	</test>
+	
+	<test name="CalendarLoadProfileCardRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="CalendarLoadProfileCardRegression">
+		<classes>
+			<class name="regression.CalendarLoadProfileCard.CalendarLoadProfileCardRegression" />
+		</classes>
+	</test>
+	
+	<test name="ComparisonAnalysisCardRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="ComparisonAnalysisCardRegression">
+		<classes>
+			<class name="regression.ComparisonAnalysisCard.ComparisonAnalysisCardRegression" />
+		</classes>
+	</test>
+	
+	<test name="ScatterPlotAnalysisCardRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="ScatterPlotAnalysisCardRegression">
+		<classes>
+			<class name="regression.ScatterPlotAnalysisCard.ScatterPlotAnalysisCardRegression" />
+		</classes>
+	</test>
+	
+	<test name="AllCardsCommonRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="AllCardsCommonRegression">
+		<classes>
+			<class name="regression.AllCardsCommonTCs.AllCardsCommonRegression" />
+		</classes>
+	</test>
+	
+	<test name="ExceptionsAndNotificationsRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="ExceptionsAndNotificationsRegression">
+		<classes>
+			<class name="regression.PAMAdminstrationTCs.ExceptionsAndNotifications.ExceptionsAndNotificationsRegression" />
+		</classes>
+	</test>
+	
+	<test name="HierarchySheetDownloadAndUploadRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="HierarchySheetDownloadAndUploadRegression">
+		<classes>
+			<class name="regression.PAMAdminstrationTCs.HierarchySheetDownloadAndUpload.HierarchySheetDownloadAndUploadRegression" />
+		</classes>
+	</test>
+	
+	<test name="ManageMeasurementsRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="ManageMeasurementsRegression">
+		<classes>
+			<class name="regression.PAMAdminstrationTCs.ManageMeasurements.ManageMeasurementsRegression" />
+		</classes>
+	</test>
+	
+	<test name="ManageTagsRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="ManageTagsRegression">
+		<classes>
+			<class name="regression.PAMAdminstrationTCs.ManageTags.ManageTagsRegression" />
+		</classes>
+	</test>
+	
+	<test name="SiteSchedulesRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="SiteSchedulesRegression">
+		<classes>
+			<class name="regression.PAMAdminstrationTCs.SiteSchedules.SiteSchedulesRegression" />
+		</classes>
+	</test>
+	
+	<test name="AverageProfileRegression" safetype="safe" ProdJohndeere="safe"
+		InvisibleMode="safe" Description="AverageProfileRegression">
+		<classes>
+			<class name="regression.PAMAdminstrationTCs.AverageProfile.AverageProfileRegression" />
+		</classes>
+	</test>
+	
+	<test name="MiscellaneousRegression" safetype="safe" ProdJohndeere="safe"
+		InvisibleMode="safe" Description="MiscellaneousRegression">
+		<classes>
+			<class name="regression.PAMMiscellaneous.MiscellaneousRegression" />
+		</classes>
+	</test>
+	
+	<test name="DataQualityScenariosRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="DataQualityScenariosRegression">
+		<classes>
+			<class name="regression.DataQualityScenarios.DataQualityScenariosRegression" />
+		</classes>
+	</test>
+	<test name="MyDashBoardWidgetsRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="MyDashBoardWidgetsRegression">
+		<classes>
+			<class name="regression.DashboardsAndWidgets.MyDashBoardAndWidgets.MyDashBoardWidgetsRegression" />
+		</classes>
+	</test>
+	
+	
+	<!-- <test name="LegacyDBWidgetRegression" safetype="safe" ProdJohndeere="safe"
+		InvisibleMode="safe" Description="LegacyDBWidgetRegression">
+		<classes>
+			<class name="regression.DashboardsAndWidgets.LegacyDashBoardAndWidgets.LegacyDBWidgetRegression" />
+		</classes>
+	</test>
+	-->
+	
+	<test name="ModelingEngineRegression" safetype="safe" ProdJohndeere="safe"
+		InvisibleMode="safe" Description="ModelingEngineRegression">
+		<classes>
+			<class name="regression.ModelingEngine.ModelingEngineRegression" />
+		</classes>
+	</test>
+	
+	
+		<test name="EEMLogin" safetype="unsafe"
+		ProdJohndeere="safe" InvisibleMode="unsafe"
+		Description="EEMLogin">
+		<classes>
+			<class name="miscellaneous.QIDM_189_EEMLogin" />
+		</classes>
+	</test>
+	
+	<test name="IMServ_DailyAllScheduleReport" safetype="unsafe"
+		ProdJohndeere="unsafe" InvisibleMode="unsafe"
+		Description="IMServ_DailyAllScheduleReport">
+		<classes>
+			<class name="miscellaneous.ScheduleReport.IMServ_DailyAllScheduleReport" />
+		</classes>
+	</test>
+	
+	
+	<test name="OffLine_DailyAllScheduleReport" safetype="unsafe"
+		ProdJohndeere="unsafe" InvisibleMode="unsafe"
+		Description="OffLine_DailyAllScheduleReport">
+		<classes>
+			<class name="miscellaneous.ScheduleReport.OffLine_DailyAllScheduleReport" />
+		</classes>
+	</test>
+	<test name="PAM_DailyAllScheduleReport" safetype="unsafe"
+		ProdJohndeere="unsafe" InvisibleMode="unsafe"
+		Description="PAM_DailyAllScheduleReport">
+		<classes>
+			<class name="miscellaneous.ScheduleReport.PAM_DailyAllScheduleReport" />
+		</classes>
+	</test>
+	
+	
+	
+	<!-- 
+	<test name="DCToolScenarios" safetype="safe" ProdJohndeere="safe"
+		InvisibleMode="safe" Description="DCToolScenarios">
+		<classes>
+			<class name="miscellaneous.DCToolScenarios" />
+		</classes>
+	</test>
+	-->
+</suite>

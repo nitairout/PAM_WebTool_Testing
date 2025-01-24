@@ -1,0 +1,53 @@
+Timestamp,Value,Status,Notes
+2020-11-29 00:30:00,218.612,2,
+2020-11-29 00:45:00,26.286,2,
+2020-11-29 01:30:00,84.038,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 01:45:00,25.173,2,
+2020-11-29 02:30:00,75.203,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 02:45:00,25.017,2,
+2020-11-29 03:30:00,75.98,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 03:45:00,25.405,2,
+2020-11-29 04:30:00,68.262,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 04:45:00,23.168,2,
+2020-11-29 05:30:00,80.964,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 05:45:00,26.838,2,
+2020-11-29 06:30:00,73.888,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 06:45:00,24.501,2,
+2020-11-29 07:30:00,70.926,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 07:45:00,23.4,2,
+2020-11-29 08:30:00,70.979,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 08:45:00,23.715,2,
+2020-11-29 09:30:00,70.957,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 09:45:00,23.943,2,
+2020-11-29 10:30:00,64.703,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 10:45:00,22.593,2,
+2020-11-29 11:30:00,69.896,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 11:45:00,23.584,2,
+2020-11-29 12:30:00,20.737,4609,System was unable to calculate the previous 2 values due to Dip(s) | System did not detect a catch-up spike.
+2020-11-29 12:45:00,20.914,2,
+2020-11-29 13:30:00,123.922,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 13:45:00,23.302,2,
+2020-11-29 14:30:00,71.187,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 14:45:00,23.946,2,
+2020-11-29 15:30:00,73.387,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 15:45:00,24.797,2,
+2020-11-29 16:30:00,66.379,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 16:45:00,23.347,2,
+2020-11-29 17:30:00,71.401,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 17:45:00,23.841,2,
+2020-11-29 18:30:00,75.088,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 18:45:00,25.44,2,
+2020-11-29 19:30:00,75.736,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 19:45:00,24.791,2,
+2020-11-29 20:30:00,76.848,513,System was unable to calculate the previous 2 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 20:45:00,28.498,2,
+2020-11-29 21:00:00,28.44,2,
+2020-11-29 21:30:00,51.933,513,System was unable to calculate the previous 1 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 21:45:00,25.313,2,
+2020-11-29 22:00:00,23.738,2,
+2020-11-29 22:30:00,45.908,513,System was unable to calculate the previous 1 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 22:45:00,23.734,2,
+2020-11-29 23:00:00,24.978,2,
+2020-11-29 23:30:00,49.792,513,System was unable to calculate the previous 1 values due to Dip(s) | System detected a catch-up spike.
+2020-11-29 23:45:00,25.037,2,
+2020-11-30 00:00:00,25.469,2,

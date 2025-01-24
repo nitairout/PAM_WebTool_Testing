@@ -1,0 +1,13 @@
+Timestamp,Value,Status,Notes
+2020-01-17 06:00:00,0,513,System detected a zero value representing a gap.
+2020-01-17 06:15:00,0,513,System detected a zero value representing a gap.
+2020-01-17 06:30:00,0,513,System detected a zero value representing a gap.
+2020-01-17 06:45:00,0,513,System detected a zero value representing a gap.
+2020-01-17 07:00:00,0,513,System detected a zero value representing a gap.
+2020-01-17 07:15:00,0,513,System detected a zero value representing a gap.
+2020-01-17 07:30:00,0,513,System detected a zero value representing a gap.
+2020-01-17 07:45:00,0,513,System detected a zero value representing a gap.
+2020-01-17 08:00:00,3200,513,System detected a catch-up spike.
+2020-01-17 08:15:00,100,2,
+2020-01-17 08:30:00,100,2,
+2020-01-17 08:45:00,100,2,

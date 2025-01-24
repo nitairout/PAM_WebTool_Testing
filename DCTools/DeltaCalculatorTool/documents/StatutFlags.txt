@@ -1,0 +1,19 @@
+  StatusFlags
+  {
+    None = 0,
+    Suspect = 1,
+    Valid = 2,
+    Locked = 4,
+    Edited = 8,
+    Overridden = 16, 
+    Dip = 32, 
+    Spike = 64, 
+    Duplicate = 128, 
+    Range = 256, 
+    Note = 512, 
+    DataError = 1024, 
+    Estimate = 2048, 
+    NonCatchupSpike = 4096, 
+    GapStart = 8192, 
+    GapEnd = 16384, 
+  }

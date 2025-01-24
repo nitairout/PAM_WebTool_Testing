@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<suite verbose="1" name="PAM Automation" parallel="false"
+	preserve-order="true">
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+		<listener class-name="listener.RetryListenerClass" />
+		<!-- <listener class-name="listener.ReportTestNG" /> -->
+	</listeners>
+
+	<test name="SanityTest" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="SanityTest">
+		<classes>
+			<class name="smokeTest.SanityTest" />
+		</classes>
+	</test>
+	
+</suite>

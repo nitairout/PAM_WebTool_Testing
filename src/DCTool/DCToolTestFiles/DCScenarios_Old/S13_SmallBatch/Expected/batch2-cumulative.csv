@@ -1,0 +1,24 @@
+Timestamp,Value,Status,Notes
+2020-01-16 15:00:00,1998167,2,
+2020-01-16 15:15:00,1998274,2,
+2020-01-16 15:30:00,1998380,2,
+2020-01-16 15:45:00,1998492,2,
+2020-01-16 16:00:00,1998500,2,
+2020-01-16 16:15:00,1998600,2,
+2020-01-16 16:30:00,1998700,2,
+2020-01-16 16:45:00,1998800,2,
+2020-01-16 17:00:00,1998900,2,
+2020-01-16 17:15:00,1999000,2,
+2020-01-16 17:30:00,1999100,2,
+2020-01-16 17:45:00,1999200,2,
+2020-01-16 18:00:00,1999300,2,
+2020-01-16 18:15:00,1999400,2,
+2020-01-16 19:00:00,1999.7,1536,Suspicious dip found in cumulative data.
+2020-01-16 19:15:00,1999.8,1538,Suspicious dip found in cumulative data.
+2020-01-16 19:30:00,1999.9,1538,Suspicious dip found in cumulative data.
+2020-01-16 19:45:00,2000,1538,Suspicious dip found in cumulative data.
+2020-01-16 20:00:00,2000.1,1538,Suspicious dip found in cumulative data.
+2020-01-16 20:15:00,2000.2,1538,Suspicious dip found in cumulative data.
+2020-01-16 20:30:00,2000.3,1538,Suspicious dip found in cumulative data.
+2020-01-16 20:45:00,2000.4,1538,Suspicious dip found in cumulative data.
+2020-01-16 21:00:00,2000.5,1538,Suspicious dip found in cumulative data.

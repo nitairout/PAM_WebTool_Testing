@@ -1,0 +1,16 @@
+Follow below instructions to run the tool
+
+1. Extarct all the file from DCTool.zip to your local folder
+	for example create a folder under called 'DeltaCalculatorTool' under C drive(c:\DeltaCalculatorTool)
+2. Edit 'DCTool.exe.config' file and update below
+	Username=EEM userid
+	password=EEM password
+	Url=https://tk1eem.dev.summitenergy.com/
+3. Create a folder anywhere for holding your test source data:
+	for example create a folder called 'DeltaCalculatorData' under D drive(d:\DeltaCalculatorData)
+	any subfolder in this folder will be processed if it has a 'input' and 'output' subfolders
+4. Copy you test data file to 'Input' folder
+5. Open command prompt and run below command
+  >cd C:\DeltaCalculatorTool
+  >DCTool -path="d:\DeltaCalculatorData"  (replace this path to yours)
+   A folder called xxx-output will be created for the result		

@@ -1,0 +1,21 @@
+command to run
+
+C:\DCTool>dctester -path="C:\DCTool" (this is the folder where input files are located)
+
+S1 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S1_10 valid values detect spike"
+
+S2 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S2_DataErrorWithCatchUpSpike"
+
+S4 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S4_RepeatedValueWithCatchUpSpike"
+
+S5- C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S5_RepeatedValueWithNoCatchUpSpike"
+
+S6 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S6_DipWithCatchUpSpike"
+
+S7 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S7_DipWithNoCatchUpSpike"
+
+S9 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S9_ GapwithNoCatchUpSpike"
+
+S10 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S10_NullWithCatchUpSpike"
+
+S11 - C:\DCTool>dctester -path="C:\DCTool\DC Scenarios\S11_ NullwithNoCatchUpSpike"

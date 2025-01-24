@@ -1,0 +1,26 @@
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\Languages.xml
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.exe.config
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.exe
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.pdb
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.xml
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\Microsoft.Office.Interop.Excel.dll
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\bin\Debug\office.dll
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.Resources.resources
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.TestToolConfig.resources
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\obj\Debug\SchneiderAutomatedTestSuite.vbproj.GenerateResource.Cache
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.exe
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.xml
+E:\MAINT\QC Tool\eo_qc\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.pdb
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\bin\Debug\Languages.xml
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.exe.config
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.exe
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.pdb
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\bin\Debug\SummitAutomatesTestSuite.xml
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.Resources.resources
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.TestToolConfig.resources
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SchneiderAutomatedTestSuite.vbproj.GenerateResource.cache
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SchneiderAutomatedTestSuite.vbproj.CoreCompileInputs.cache
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SchneiderAutomatedTestSuite.vbproj.CopyComplete
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.exe
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.xml
+D:\Sudhir\PAM Tool Latest 5\eo-qcauto\DesktopApp\obj\Debug\SummitAutomatesTestSuite.pdb
