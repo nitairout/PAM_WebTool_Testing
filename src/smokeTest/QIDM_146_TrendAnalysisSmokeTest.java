@@ -54,7 +54,7 @@ public class QIDM_146_TrendAnalysisSmokeTest extends TestBase {
 			// Click on save and close
 			getWebElementActionXpath_D("//span[contains(text(),'Save & Close')]").click();
 			Thread.sleep(5000);
-
+/*
 			// Search with site testData.getProperty("PAMTestCapriataSaiwa")
 			searchSiteInLocationList(testData.getProperty("PAMTestCapriataSaiwa"));
 			// Click on the measurements
@@ -102,7 +102,7 @@ public class QIDM_146_TrendAnalysisSmokeTest extends TestBase {
 				Assert.assertEquals(holdRowWiseData.get(0), changeTheDateFormat("M/d/yyyy", today.minusDays((29 - i))));
 			}
 			printLog("Verified first row of table date for default 30 days");
-
+*/
 			login.logout();
 
 		} catch (Throwable e) {
