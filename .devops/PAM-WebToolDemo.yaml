@@ -1,0 +1,83 @@
+trigger: none # Disable automatic triggers; rely on the webhook.
+resources:
+  webhooks:
+    - webhook: summitJiraWebHook
+      connection: scSummitJirawebhook
+trigger: none # Disable automatic triggers; rely on the webhook.
+resources:
+  webhooks:
+    - webhook: summitJiraWebHook
+      connection: scSummitJirawebhook
+# Variable 'Execution_Env' was defined in the Variables tab
+# Variable 'SendGrid_API_Key' was defined in the Variables tab
+variables:
+- name: BuildParameters.antBuildFile
+  value: PAM_SanityTest_build.xml
+name: $(date:yyyyMMdd)$(rev:.r)
+resources:
+  repositories:
+  - repository: self
+    type: git
+    ref: refs/heads/Test_WebExecutionToolBranch
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    vmImage: windows-latest
+    demands:
+    - IS_TEST_AUTOMATION
+  steps:
+  - checkout: self
+    clean: true
+    fetchTags: false
+  - task: Ant@1
+    displayName: Ant  PAM_SanityTest_build.xml
+    inputs:
+      antBuildFile: $(BuildParameters.antBuildFile)
+      targets: run
+      publishJUnitResults: false
+      jdkVersion: 1.11
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact: drop'
+    condition: succeededOrFailed()
+    inputs:
+      PathtoPublish: $(System.DefaultWorkingDirectory)/test-output
+  - task: citrus-andriessen.cag-sendgrid.custom-build-release-task.SendGrid@1
+    displayName: 'SendGrid '
+    condition: succeededOrFailed()
+    inputs:
+      sendgridkey: $(SendGrid_API_Key)
+      to: nitaichand.rout@non.se.com,nrout@ctepl.com
+      from: no-reply@ems.schneider-electric.com
+      subject: 'PAM WebTool Testing: $(Build.DefinitionName) - Automation Result from Azure on Stage : $(Agent.JobStatus)'
+      htmlbody: >-
+        <!DOCTYPE html>
+
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title></title>
+        </head>
+
+        <body>
+            <p>Hello,</p>
+            <p>Please find the attached Automated test report along with the build information for your reference.</p>
+            <p><strong>Build Name:</strong> $(Build.DefinitionName)</p>
+        <p><strong>Requested By:</strong> $(Build.RequestedFor)</p>
+
+        <p><strong>Branch Name:</strong> $(Build.SourceBranchName)</p>
+           <p><em>NOTE: Please do not reply to this auto-generated email.</em></p>
+            <p>Thank you for your attention.</p>
+            <p>Best regards,</p>
+            <p>Automation Team.</p>
+        <p>Cambridge Technology.</p>
+
+        </body>
+
+        </html>
+      addattachment: true
+      attachment: $(System.DefaultWorkingDirectory)/test-output/emailable-report.html
+...
