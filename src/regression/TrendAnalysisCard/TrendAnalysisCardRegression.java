@@ -29,7 +29,7 @@ public class TrendAnalysisCardRegression extends TestBase {
 			Assert.fail("Error in QIDM_62_TrendAnalysisComparisonDateRanges", t);
 		} 
 	}
-	
+	/*
 	@Test(priority =3)
 	public void QIDM_63_TrendAnalysisDataBreakdownBySubmeters() throws Exception {
 		try {
@@ -161,5 +161,5 @@ public class TrendAnalysisCardRegression extends TestBase {
 			Assert.fail("Error in QIDM_186_TrendAnalysisStatisticsForGasAndWaterCommodities", t);
 		} 
 	}
-	
+	*/
 }

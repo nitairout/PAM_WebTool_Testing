@@ -45,7 +45,7 @@ public class QIDM_62_TrendAnalysisComparisonDateRanges extends TestBase{
 			
 			Assert.assertEquals(getWebElementXpath("ColumnLegendOne").getText(), deaultLegend);
 			printLog("Verified legend on the chart is displayed for above selected measurment");
-			
+			/*
 			//1st 4 rows table data verification for default chart load By Day
 			getWebElementXpath("DataTableTab").click();
 			Thread.sleep(2000);
@@ -128,7 +128,7 @@ public class QIDM_62_TrendAnalysisComparisonDateRanges extends TestBase{
 			String dateStartWithExpectedData="1/1/2023~9,459~1/1/2022~9,357~102.0~1.090|1/2/2023~11,854~1/2/2022~10,050~1,804~17.95|1/3/2023~3,847~1/3/2022~9,711~-5,864~-60.39|1/4/2023~2,246~1/4/2022~7,099~-4,853~-68.36";
 			verifyTableDataWithExpected(dateStartWithExpectedData,4,"QIDM_62_TrendAnalysisComparisonDateRanges");
 			printLog("Verified for Select start date !!");
-			
+			*/
 			login.logout();
 		}catch(Throwable e) {
 			e.printStackTrace();

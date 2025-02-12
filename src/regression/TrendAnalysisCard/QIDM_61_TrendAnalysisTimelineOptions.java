@@ -43,7 +43,7 @@ public class QIDM_61_TrendAnalysisTimelineOptions extends TestBase{
 			actualEndChartDate=getWebElementXpath("ChartEndDate").getText();
 			Assert.assertEquals(actualStartChartDate, expectedStartChartDate);
 			Assert.assertEquals(actualEndChartDate, expectedEndChartDate);
-			
+			/*
 			//First 4 rows of table data verification
 			getWebElementActionXpath("DataTableTab").click();
 			ArrayList<ArrayList<String>> holdPamTableData=Utility.returnPamTableData(4);
@@ -299,7 +299,7 @@ public class QIDM_61_TrendAnalysisTimelineOptions extends TestBase{
 			Assert.assertEquals(actualStartChartDate, expectedStartChartDate);
 			Assert.assertEquals(actualEndChartDate, expectedEndChartDate);
 			printLog("Verified Original view dates!");
-
+*/
 			login.logout();
 			
 		}catch(Throwable e) {

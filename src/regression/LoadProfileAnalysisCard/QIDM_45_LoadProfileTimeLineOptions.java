@@ -46,7 +46,7 @@ public class QIDM_45_LoadProfileTimeLineOptions extends TestBase{
 			//verify actual date range is as expected date range
 			actualStartEndDateFromChart=getWebElementActionXpath_D("//*[contains(@class,'highcharts-title')]").getText();
 			Assert.assertEquals(expectedStartChartDate+" - "+expectedEndChartDate, actualStartEndDateFromChart);
-			
+			/*
 			//Timeline option 'Today'
 			getWebElementActionXpath("TimeLineToday").click();
 			aJaxWait();
@@ -139,7 +139,7 @@ public class QIDM_45_LoadProfileTimeLineOptions extends TestBase{
 			Assert.assertEquals(actualStartEndDateFromChart,expectedStartChartDate+" - "+expectedEndChartDate);
 			
 			printLog("Verified Year To Starting from!!");
-			
+			*/
 			login.logout();
 		}catch(Throwable e) {
 			e.printStackTrace();

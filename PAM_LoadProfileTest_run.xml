@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<suite verbose="1" name="PAM Automation" parallel="false"
+	preserve-order="true">
+
+	<listeners>
+		<listener class-name="listener.TestsListenerAdapter" />
+		<!-- <listener class-name="listener.ReportTestNG" /> -->
+	</listeners>
+
+	<test name="LoadProfileAnalysisCardRegression" safetype="safe"
+		ProdJohndeere="safe" InvisibleMode="safe"
+		Description="LoadProfileAnalysisCardRegression">
+		<classes>
+			<class name="regression.LoadProfileAnalysisCard.LoadProfileAnalysisCardRegression" />
+		</classes>
+	</test>
+	
+</suite>

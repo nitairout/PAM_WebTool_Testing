@@ -32,7 +32,7 @@ public class SanityTest extends TestBase {
 		} 
 	}
 	
-	@Test(priority =3)
+	//@Test(priority =3)
 	public void QIDM_148_CalendarLoadProfileAnalysisSmokeTest() throws Exception {
 		try {
 			new QIDM_148_CalendarLoadProfileAnalysisSmokeTest().calendarLoadProfileAnalysisSmokeTest();

@@ -195,9 +195,10 @@ public class ValueDTO {
 			
 			//This block is used to use the env value from azure
 			String Execution_Env = System.getenv("Execution_Env");
+			System.out.println("Execution_Envv from Pipeline : "+Execution_Env);
 			if(Execution_Env==null || Execution_Env.equals("null")) {
 				//this.URl =	"https://tk1.dev.summitenergy.com";
-				this.URl =	"https://core.stg1.resourceadvisor.schneider-electric.com";
+				//this.URl =	"https://core.stg1.resourceadvisor.schneider-electric.com";
 				//this.URl =	"https://resourceadvisor.schneider-electric.com";
 				//this.URl =	"https://tk3.dev.summitenergy.com";
 			}else {
@@ -226,9 +227,27 @@ public class ValueDTO {
 			//this.internalPassword = sh.getCell(2, 3).getContents();
 			this.internalPassword = "Autouser1!@#";
 			this.webDriverObj = sh.getCell(3, 2).getContents();
-			//this.webDriverObj ="firefox";
-			this.webDriverObj ="chrome";
-			//this.webDriverObj ="edge";
+			
+			//This block is used to use the browser value from azure
+			String Execution_Browser = System.getenv("Execution_Browser");
+			System.out.println("Execution browser from Pipeline : "+Execution_Browser);
+			if(Execution_Browser==null || Execution_Browser.equals("null")) {
+				//this.webDriverObj ="firefox";
+				//this.webDriverObj ="chrome";
+				//this.webDriverObj ="edge";
+			}else {
+				switch (Execution_Browser) {
+				case "Chrome":
+					this.webDriverObj ="chrome";
+					break;
+				case "EDGE":
+					this.webDriverObj ="edge";
+					break;
+				default:
+					this.webDriverObj ="chrome";
+					break;
+				}
+			}
 			
 			this.client = sh.getCell(4, 2).getContents();
 			this.email = sh.getCell(5, 2).getContents();

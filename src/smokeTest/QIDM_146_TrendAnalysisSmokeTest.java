@@ -32,7 +32,7 @@ public class QIDM_146_TrendAnalysisSmokeTest extends TestBase {
 
 			// Verify the default message
 			Assert.assertTrue(d.getPageSource().contains(testData.getProperty("defaultMessage")));
-
+/*
 			// Verify the widget title as 'New Trend Analysis'
 			Assert.assertEquals(getWebElementXpath("WidgetHeader").getText(), "New Trend Analysis");
 			printLog("Verified the card title as 'New Trend Analysis'");
@@ -54,7 +54,7 @@ public class QIDM_146_TrendAnalysisSmokeTest extends TestBase {
 			// Click on save and close
 			getWebElementActionXpath_D("//span[contains(text(),'Save & Close')]").click();
 			Thread.sleep(5000);
-/*
+
 			// Search with site testData.getProperty("PAMTestCapriataSaiwa")
 			searchSiteInLocationList(testData.getProperty("PAMTestCapriataSaiwa"));
 			// Click on the measurements

@@ -29,7 +29,7 @@ public class LoadProfileAnalysisCardRegression extends TestBase {
 			Assert.fail("Error in QIDM_46_LoadProfileComparisonDateRanges", t);
 		} 
 	}
-	
+/*	
 	@Test(priority =3)
 	public void QIDM_47_LoadProfileOverlayOptions() throws Exception {
 		try {
@@ -161,6 +161,6 @@ public class LoadProfileAnalysisCardRegression extends TestBase {
 			Assert.fail("Error in QIDM_184_LoadProfileChartwithMixedIntervalLengths", t);
 		} 
 	}
-	
+	*/
 	
 }

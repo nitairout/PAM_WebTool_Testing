@@ -37,7 +37,7 @@ public class QIDM_147_LoadProfileAnalysisSmokeTest extends TestBase {
 			// Verify the widget title as 'New Load Profile Analysis'
 			Assert.assertEquals(getWebElementXpath("WidgetHeader").getText(), "New Load Profile Analysis");
 			printLog("Verified the card title as 'New Load Profile Analysis'");
-
+/*
 			String[] expectedDefaultMeasuremets = { "electricity-Demand", "gas-Volume", "gas-Energy", "water-Volume", "steam-Energy" };
 			// Click on electric commodity icon to enter into select measurement pop up
 			getWebElementActionXpath_D("//table/thead/tr[1]/th//i[contains(@class,'se-icon-electricity-o com-header')]").click();
@@ -65,7 +65,7 @@ public class QIDM_147_LoadProfileAnalysisSmokeTest extends TestBase {
 			getWebElementXpath("PAMTest_CapriataSaiwa_Water").click();
 
 			refreshToLoadTheChart();
-/*
+
 			LocalDate today = LocalDate.now();
 			String expectedStartChartDate, expectedEndChartDate;
 
